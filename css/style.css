@@ -1,0 +1,276 @@
+/* Creado: 29 - 09 - 2021
+Autor: Luz Angela Moreno Cubillos */
+
+*{
+    /* border:1px solid red; */
+    color: #343a40;
+}
+body{
+    padding-top: 0;
+    padding-left: 17rem;
+    border: 0px;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif,'Saira Extra Condensed', sans-serif;
+}
+.lateral-izquierdo{
+    display: inline;
+    padding: 0px;
+    margin:0px;
+    text-align: center;
+    position:fixed;
+    width: 17em;
+    height: 100vh;
+    background-color: rgba(189, 93, 56);
+    left: 0px;
+    top:0px;
+}
+.lateral-izquierdo > div{
+    display: flex;
+    padding: 30% 20% 0% 20%;
+    margin:auto;
+}
+figure{
+    margin: 0px;
+}
+.Foto{
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border-radius: 50% !important;
+}
+.Menu > ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.Menu > ul > li{
+    padding: 8px;
+}
+.enlace_item{
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    color:rgb(180, 178, 178);
+    text-decoration: none;
+}
+.enlace_item.active{
+    color: white;
+}
+.enlace_item:hover{
+    color:white;
+}
+.secciones{
+    display: block;
+    padding: 8rem 3rem;
+    min-height: 100vh;
+}
+h1{
+    text-transform: uppercase;
+    font-family: "Saira Extra Condensed", "Helvetica Neue", Arial, sans-serif;
+    font-size: 6rem;
+    padding-bottom: 0px !important;
+    margin: 0px;
+    line-height: 1;
+}
+.contenedor > h1 > span{
+    text-transform: uppercase;
+    font-family: "Saira Extra Condensed", "Helvetica Neue", Arial, sans-serif;
+    font-size: 6rem;
+    padding-bottom: 0px !important;
+    margin: 0px;
+    line-height: 1;
+    color: rgba(189, 93, 56) ;
+}
+.direccion{
+    font-family: "Saira Extra Condensed", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 3rem !important;
+}
+.correo{
+    color: rgba(189, 93, 56);
+}
+.correo:hover{
+    color: rgb(105, 80, 70);
+}
+.Perfil{
+    font-size: 1.15rem;
+    font-weight: 400;
+    margin-bottom: 3rem !important;
+    text-align: justify;
+}
+.imagenes > a {
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+}
+.imagenes > a > img{
+    width: 2em;
+}
+hr{
+    border: 1px solid rgba(189, 93, 56);
+}
+h2{
+    text-transform: uppercase;
+    font-family: "Saira Extra Condensed", "Helvetica Neue", Arial, sans-serif;
+    font-size: 3.5rem;
+    padding-bottom: 0px !important;
+    margin: 0px 0px 3rem 0px !important;
+    line-height: 1;
+}
+h3{
+    text-transform: uppercase;
+    font-family: "Saira Extra Condensed", "Helvetica Neue", Arial, sans-serif;
+    padding-bottom: 0px !important;
+    margin: 0px;
+    line-height: 1;
+    font-size: 2rem;
+}
+h4{
+    font-family: "Saira Extra Condensed", "Helvetica Neue", Arial, sans-serif;
+    padding-bottom: 0px !important;
+    margin: 0px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+.item_article{
+    display: flex !important;
+    flex-direction: row !important;
+    margin-bottom: 3rem !important;
+    justify-content: space-between !important;
+}
+.sub-item_article{
+    flex-grow: 1 !important;
+}
+.fecha{
+    flex-shrink: 0 !important;
+}
+.fecha span{
+    color: rgba(189, 93, 56);
+}
+.imagenes2 > img {
+    margin-top: 1.5em;
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+.imagenes2{
+    width: auto;
+}
+.imagenes2 > img{
+    width: 2em;
+}
+.contenedor1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.Lista {
+    list-style-image: url("../img/check.png");
+    line-height: 2;
+    width: auto;
+    padding-top: 0;
+}
+.Lista > li {
+    padding-top: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.Lista2, .Lista3{
+    list-style: none;
+    margin-left: 4.5em;
+    padding-left: 0px;
+    padding-right: 30px;
+}
+.Lista2 > li{
+    position: relative;
+}
+.Lista2 > li > span{
+    left: -2em;
+    position: absolute;
+    text-align: center;
+    width: 2em;
+    line-height: inherit;
+}
+.item-Log{
+    width: 1.125em;
+}
+.proyectos1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.proyectos1 > article{
+    width: 475px;
+}
+article > div >img {
+    width: 460px;
+    padding: 5px;
+}
+.contacto-form{
+    display: flex;
+}
+.item-Log1{
+    width: 2em;
+}
+.Lista3 > li{
+    position: relative;
+    left: -1px;
+    height: 45px;
+}
+.Lista3 > li > span{
+    left: -3em;
+    position: absolute;
+    text-align: center;
+    width: 3em;
+    line-height: inherit;
+}
+form{
+    padding: 0px 5px;
+    width: 500px;
+}
+.Lista4 > li > div{
+    width: auto;
+    padding-top: 3px;
+}
+input{
+    left: 10px;
+    width: 450px;
+    height: 30px;
+    border-radius: 10px;
+    border:2px solid rgba(189, 93, 56);
+}
+.Lista4{
+    list-style: none;
+}
+.Lista4 > li{
+    position: relative;
+    left: -40px;
+    padding: 2px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+textarea{
+    left: 10px;
+    border-radius: 10px;
+    border:2px solid rgba(189, 93, 56);
+    left: -40px;
+    padding-top: 10px;
+}
+button{
+    background-color: rgba(189, 93, 56);
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    width: 200px;
+    height: 50px;
+    border-radius: 10%;
+}
+button:hover{
+    background-color: rgb(100, 72, 61);
+}
