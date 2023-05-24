@@ -32,7 +32,7 @@ body{
 figure{
     margin: 0px;
 }
-.Foto{
+.image-profile{
     max-width: 10rem;
     max-height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
@@ -96,7 +96,7 @@ h1{
 .correo:hover{
     color: rgb(105, 80, 70);
 }
-.Perfil{
+.profile-description{
     font-size: 1.15rem;
     font-weight: 400;
     margin-bottom: 3rem !important;
@@ -182,16 +182,16 @@ h4{
     margin: 0;
     list-style-type: none;
 }
-.Lista2, .Lista3{
+.skills, .Lista3{
     list-style: none;
     margin-left: 4.5em;
     padding-left: 0px;
     padding-right: 30px;
 }
-.Lista2 > li{
+.skills > li{
     position: relative;
 }
-.Lista2 > li > span{
+.skills > li > span{
     left: -2em;
     position: absolute;
     text-align: center;
